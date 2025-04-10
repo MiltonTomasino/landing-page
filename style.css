@@ -18,17 +18,25 @@
 }
 
 .header ul {
-    /* outline: 2px solid blue; */
     list-style: none;
     display: flex;
     align-items: center;
     gap: 50px;
+
+    border-radius: 10px;
 }
 
-.header ul li {
-    /* outline: 2px solid white; */
+
+li a {
+    text-decoration: none;
+    color: white;
 }
 
+
+
+li:hover {
+    background-color: #3a557a;
+}
 /* WEBSITE-TOP */
 
 .website-top {
@@ -69,9 +77,9 @@
 /* WEBSITE_MID1 */
 
 .website-mid1 {
-    padding: 20px;
-    margin-bottom: 300px;
+    /* padding: 20px; */
     text-align: center;
+    margin: 100px 0;
 }
 
 .website-mid1 h2 {
@@ -102,4 +110,109 @@
 }
 .card p {
     font-size: 22px;
+}
+
+/* WEBSITE-MID2 */
+
+.website-mid2 {
+    /* outline: 2px solid red; */
+    background-color: #E5E7EB;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid2-content {
+    /* outline: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    
+
+    padding: 100px 50px;
+}
+
+.mid2-content p {
+    /* outline: 2px solid red; */
+    width: 500px;
+    padding: 30px;
+
+    color: #1F2937;
+    font-size: 36px;
+    
+}
+
+.mid2-content h3 {
+    /* outline: 2px solid orange; */
+    align-self: flex-end;
+    text-align: end;
+}
+
+/* WEBSITE-MID3 */
+
+.website-mid3 {
+    /* outline: 2px solid red; */
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    /* outline: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+
+    width: 800px;
+    height: 300px;
+}
+
+.call a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-info {
+    /* outline: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.call-info h3 {
+    font-size: 36px;
+}
+
+.call-info p {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* FOORTER */
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
