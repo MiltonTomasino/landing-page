@@ -69,16 +69,37 @@
 /* WEBSITE_MID1 */
 
 .website-mid1 {
-    padding: 50px;
+    padding: 20px;
     margin-bottom: 300px;
     text-align: center;
 }
 
 .website-mid1 h2 {
     font-size: 30px;
+    max-width: 100%;
 }
 
 .card-container {
+    /* outline: 2px solid green; */
     margin-top: 50px;
     display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    /* outline: 2px solid red; */
+    width: 350px;
+    height: auto;
+}
+
+.card img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.card p {
+    font-size: 22px;
 }
